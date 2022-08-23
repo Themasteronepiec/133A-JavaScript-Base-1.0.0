@@ -8,9 +8,15 @@
 (function main() {
   'use strict'; // Demande une interprétation stricte du code
 
-    let a = 'Bonjour';
-    let b = 'toto';
+    const a = Number (prompt ('Entrez un nombre :'));
+    const b = Number (prompt ('Entrez un nombre :'));
 
-    console.log(a, b);
+    if( isNaN(a) || isNaN(b)){
+
+    }else{
+      alert(`Bonjour, ${ab} !`);
+    }
+
+
 }()); // Main IIFE
 
